@@ -31,6 +31,12 @@ class Program
             Salary = 45000
         });
 
-
+        Company.Add(new Employee()
+        {
+            ID = 3,
+            FIO = "Луценко А.",
+            Position = "Директор",
+            Salary = 60000
+        });
     }
 }
