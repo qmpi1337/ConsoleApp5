@@ -23,6 +23,13 @@ class Program
             Salary = 38000
         });
 
+        Company.Add(new Employee()
+        {
+            ID = 2,
+            FIO = "Гуськов Б.",
+            Position = "Менеджер",
+            Salary = 45000
+        });
 
 
     }
