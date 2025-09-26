@@ -15,8 +15,15 @@ class Program
     {
 
         List<Employee> Company = new List<Employee>();
+        Company.Add(new Employee()
+        {
+            ID = 1,
+            FIO = "Махотина А.",
+            Position = "Инженер",
+            Salary = 38000
+        });
 
-        
+
 
     }
 }
