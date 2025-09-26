@@ -38,5 +38,13 @@ class Program
             Position = "Директор",
             Salary = 60000
         });
+        Company.Add(new Employee()
+        {
+            ID = 4,
+            FIO = "Кемаев А.",
+            Position = "Инженер",
+            Salary = 38000
+        });
+
     }
 }
