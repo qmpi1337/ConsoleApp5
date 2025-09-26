@@ -45,6 +45,12 @@ class Program
             Position = "Инженер",
             Salary = 38000
         });
-
+        Company.Add(new Employee()
+        {
+            ID = 5,
+            FIO = "Антонова С.",
+            Position = "Менеджер",
+            Salary = 40000
+        });
     }
 }
